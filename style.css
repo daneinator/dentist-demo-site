@@ -250,16 +250,33 @@ footer {
   .testimonials {
     grid-template-columns: 1fr;
   }
-.hero-image-container {
+}.hero-image {
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}.hero-image-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero-image {
-  width: 320px;
+  width: 450px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}.hero-image {
+  width: 360px;
   height: 320px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.service-image {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 14px;
 }
